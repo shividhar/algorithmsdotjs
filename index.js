@@ -1,5 +1,25 @@
+// Imports
+
 const readline = require('readline');
 const example = require('./modules/example_data.js')
+
+// Sorts
+
+const Bubble = require('./algorithms/sorts/bubble.js');
+const Selection = require('./algorithms/sorts/selection.js');
+
+// Combinatorics
+
+const Factorial = require('./algorithms/combinatorics/factorial.js');
+const Combinations = require('./algorithms/combinatorics/combinations.js');
+const Permutations = require('./algorithms/combinatorics/permutations.js');
+
+// Data Structures
+
+const LinkedList = require('./data_structures/linked_list.js');
+const BinaryTree = require('./data_structures/binary_tree.js');
+
+// Kitchen Sink
 
 const rl = readline.createInterface({
 
@@ -19,8 +39,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input = example.array(10, 100);
         console.log('Randomly generated input: ' + input);
 
-        const bubble = require('./algorithms/sorts/bubble.js');
-        output = bubble.sort(input);
+        output = Bubble.sort(input);
         console.log('Output: ' + output);
 
       }
@@ -30,8 +49,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input = example.array(10, 100);
         console.log('Randomly generated input: ' + input);
 
-        const selection = require('./algorithms/sorts/selection.js');
-        output = selection.sort(input);
+        output = Selection.sort(input);
         console.log('Output: ' + output);
 
       }
@@ -41,8 +59,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input = example.integer(10);
         console.log('Randomly generated input: ' + input);
 
-        const factorial = require('./algorithms/combinatorics/factorial.js');
-        output = factorial.calculate(input);
+        output = Factorial.calculate(input);
         console.log('Output: ' + output);
 
       }
@@ -53,8 +70,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         r = example.integer(10);
         console.log('Randomly generated input: ' + n + ' and ' + r);
 
-        const combinations = require('./algorithms/combinatorics/combinations.js');
-        output = combinations.calculate(input1, input2);
+        output = Combinations.calculate(input1, input2);
         console.log('Output: ' + output);
 
       }
@@ -65,8 +81,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         r = example.integer(10);
         console.log('Randomly generated input: ' + n + ' and ' + r);
 
-        const permutations = require('./algorithms/combinatorics/permutations.js');
-        output = permutations.calculate(n, r);
+        output = Permutations.calculate(n, r);
         console.log('Output: ' + output);
 
       }
@@ -83,14 +98,12 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       if (structure == '1') {
 
-        const LinkedList = require('./data_structures/linked_list.js');
         console.log(LinkedList.status);
 
       }
 
       else if (structure == '2') {
 
-        const BinaryTree = require('./data_structures/binary_tree.js');
         console.log(BinaryTree.status);
 
       }
@@ -102,3 +115,15 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
   }
 
 });
+
+// Exports
+
+exports.Bubble = Bubble;
+exports.Selection = Selection;
+
+exports.Factorial = Factorial;
+exports.Combinations = Combinations;
+exports.Permutations = Permutations;
+
+exports.LinkedList = LinkedList;
+exports.BinaryTree = BinaryTree;
