@@ -5,7 +5,11 @@
 
 (soon to be) The most comprehensive collection of common data structures and algorithms (with explanations!) implemented in node.js
 
-## Directory `key`
+## Directory
+
+The key for each module is written as `key`.
+
+Modules left open ( [ ] ) are incomplete! Feel free to implement them!
 
 ### Algorithms
 
@@ -13,6 +17,12 @@
 
 - [x] Bubble Sort `1`
 - [x] Selection Sort `2`
+
+#### Combinatorics
+
+- [ ] Factorial `3`
+- [ ] Combinations `4`
+- [ ] Permutations `5`
 
 ### Data Structures
 

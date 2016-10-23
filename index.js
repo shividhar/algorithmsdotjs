@@ -41,7 +41,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input = example.integer();
         console.log('Randomly generated input: ' + input);
 
-        const factorial = require('./algorithms/combinatronics/factorial.js');
+        const factorial = require('./algorithms/combinatorics/factorial.js');
         output = factorial.calculate(input);
         console.log('Output: ' + output);
 
@@ -53,7 +53,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input2 = example.integer();
         console.log('Randomly generated input: ' + input1 + ' and ' + input2);
 
-        const combinations = require('./algorithms/combinatronics/combinations.js');
+        const combinations = require('./algorithms/combinatorics/combinations.js');
         output = combinations.calculate(input1, input2);
         console.log('Output: ' + output);
 
@@ -65,7 +65,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         input2 = example.integer();
         console.log('Randomly generated input: ' + input1 + ' and ' + input2);
 
-        const permutations = require('./algorithms/combinatronics/permutations.js');
+        const permutations = require('./algorithms/combinatorics/permutations.js');
         output = permutations.calculate(input);
         console.log('Output: ' + output);
 
