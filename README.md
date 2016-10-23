@@ -29,6 +29,7 @@ A variety of common data structures and algorithms implemented in node.js
 ### Use as dependency
 
 1. Install algorithmsdotjs as `npm install algorithmsdotjs`
+2. Include the project with `require('algorithmsdotjs')`
 
 ## Contributing
 
