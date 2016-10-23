@@ -11,6 +11,12 @@ A variety of common data structures and algorithms implemented in node.js
 #### Sorts
 
 - [x] Bubble Sort `1`
+- [x] Selection Sort `2`
+
+### Data Structures
+
+- [ ] Linked List `1`  
+- [ ] Binary Tree `2`  
 
 ## Installation
 
