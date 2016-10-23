@@ -29,15 +29,6 @@ The key for each module is written as `key`.
 - [ ] Linked List `1`  
 - [ ] Binary Tree `2`  
 
-## Using the `example_data` module
-
-The `example_data` module quickly creates arrays and single integers of randomized data (with specifications).
-
-1. Include `example_data` using `example = require('./path/to/modules/example_data.js')`
-2. Retrieve data using `let data = example.array(size_of_array, maximum_value_of_elements)`
-
-To return a single integer: `example.integer(maximum_value)`
-
 ## Installation
 
 1. Clone the project repository
@@ -50,6 +41,15 @@ To return a single integer: `example.integer(maximum_value)`
 1. Install `algorithmsdotjs` as `npm install --save algorithmsdotjs`
 2. Include the project with `algorithmsdotjs = require('algorithmsdotjs')`
 3. Use exports of index.js (example) `sorted_array = algorithmsdotjs.Bubble.sort(array)`
+
+## Using the `example_data` module
+
+The `example_data` module quickly creates arrays and single integers of randomized data (with specifications).
+
+1. Include `example_data` using `example = require('./path/to/modules/example_data.js')`
+2. Retrieve data using `let data = example.array(size_of_array, maximum_value_of_elements)`
+
+To return a single integer: `example.integer(maximum_value)`
 
 ## Contributing
 
