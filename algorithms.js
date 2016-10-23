@@ -10,7 +10,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
   if (answer = '1') {
 
-    rl.question("Which algorithm (refer to keys in README)? \n", (sort) => {
+    rl.question("Which algorithm (refer to key in README)? \n", (sort) => {
 
       if (sort == '1') {
 

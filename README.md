@@ -4,13 +4,13 @@
 
 A variety of common data structures and algorithms implemented in pure Javascript.
 
-## Directory (response key)
+## Directory `key`
 
 ## Algorithms
 
 #### Sorts
 
-- [x] Bubble Sort (1)
+- [x] Bubble Sort `1`
 
 ## Installation
 
