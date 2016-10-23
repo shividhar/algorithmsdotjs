@@ -1,20 +1,39 @@
 sort = function (elements) {
 
-  var flag = true;
+  for (var i = 0; i < elements.length - 1; i++) {
 
-  while (flag) {
+    // assume minimum is current index
 
-    flag = false;
+    var min = i;
 
-    for (var i = 0; i < elements.length - 1; i++) {
+    for (var j = i + 1; j < elements.length; j++) {
 
-      flag = false;
+      // if element is less than suceeding element
+
+      if (elements[j] < elements[min]) {
+
+        // set element as new minumum
+
+        min = j;
+
+      }
+
+    }
+
+    // insert element back into array
+
+    if (min != i) {
+
+      var temp = elements[min];
+
+      elements[min] = elements[i];
+      elements[i] = temp;
 
     }
 
   }
 
-  return "coming soon!";
+  return elements;
 
 }
 
