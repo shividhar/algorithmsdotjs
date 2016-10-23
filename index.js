@@ -16,7 +16,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       if (algorithm == '1') {
 
-        input = example.elements;
+        input = example.array(10);
         console.log('Randomly generated input: ' + input);
 
         const bubble = require('./algorithms/sorts/bubble.js');
@@ -27,7 +27,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       else if (algorithm == '2') {
 
-        input = example.elements;
+        input = example.array(10);
         console.log('Randomly generated input: ' + input);
 
         const selection = require('./algorithms/sorts/selection.js');
