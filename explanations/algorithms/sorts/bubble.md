@@ -1,4 +1,4 @@
-# Bubble Sorts
+# Bubble Sort
 
 ## How it works
 
@@ -6,7 +6,7 @@ Bubble sort iterates over each element in an array and swaps two elements at a t
 
 This lets larger elements "bubble up" to the end of the array accordingly.
 
-![Explanation Video](https://img.youtube.com/vi/8Kp-8OGwphY/0.jpg)](https://www.youtube.com/watch?v=8Kp-8OGwphY)
+[![Video](https://img.youtube.com/vi/8Kp-8OGwphY/0.jpg)](https://www.youtube.com/watch?v=8Kp-8OGwphY)
 
 Source: Harvard University CS50
 
