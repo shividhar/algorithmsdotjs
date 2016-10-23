@@ -1,19 +1,19 @@
 {
   "name": "algorithmsdotjs",
-  "version": "1.0.0",
-  "description": "A variety of common data structures and algorithms implemented in pure Javascript.",
+  "version": "0.1.0",
+  "description": "A variety of common data structures and algorithms implemented in node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arunkirubarajan/algorithms.js.git"
+    "url": "git+https://github.com/projectelore/algorithmsdotjs.git"
   },
-  "author": "Arun Kirubarajan",
+  "author": "Project Elore",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arunkirubarajan/algorithms.js/issues"
+    "url": "https://github.com/projectelore/algorithmsdotjs/issues"
   },
-  "homepage": "https://github.com/arunkirubarajan/algorithms.js#readme"
+  "homepage": "https://github.com/projectelore/algorithmsdotjs#readme"
 }
