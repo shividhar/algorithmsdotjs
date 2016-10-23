@@ -1,8 +1,8 @@
-# algorithms.js
+# algorithmsdotjs
 
 [![npm version](https://badge.fury.io/js/algorithms.js.svg)](https://badge.fury.io/js/algorithms.js)
 
-A variety of common data structures and algorithms implemented in node.js
+(I had to get creative.) A variety of common data structures and algorithms implemented in node.js
 
 ## Directory `key`
 
@@ -18,6 +18,10 @@ A variety of common data structures and algorithms implemented in node.js
 2. `cd` into the project directory
 3. Run `node algorithms.js` to run project
 4. Use console as input
+
+### Use as dependency
+
+1. Install algorithms.js as `npm install algorithmsdotjs`
 
 ## Contributing
 
