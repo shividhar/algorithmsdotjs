@@ -4,12 +4,13 @@
 
 A variety of common data structures and algorithms implemented in pure Javascript.
 
-## Algorithm and Data Structure Directory
+## Directory (response key)
 
-### Sorts
+## Algorithms
 
-- [ ] Bubble Sort
-- [ ] Binary Sort   
+#### Sorts
+
+- [x] Bubble Sort (1)
 
 ## Installation
 
