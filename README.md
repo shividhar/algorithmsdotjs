@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/algorithms.js.svg)](https://badge.fury.io/js/algorithms.js)
 
-(I had to get creative.) A variety of common data structures and algorithms implemented in node.js
+A variety of common data structures and algorithms implemented in node.js
 
 ## Directory `key`
 
