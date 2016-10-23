@@ -20,14 +20,23 @@ The key for each module is written as `key`.
 
 #### Combinatorics
 
-- [ ] Factorial `3`
-- [ ] Combinations `4`
-- [ ] Permutations `5`
+- [x] Factorial `3`
+- [x] Combinations `4`
+- [x] Permutations `5`
 
 ### Data Structures
 
 - [ ] Linked List `1`  
 - [ ] Binary Tree `2`  
+
+## Using the `example_data` module
+
+The `example_data` module quickly creates arrays and single integers of randomized data (with specifications).
+
+1. Include `example_data` using `example = require('./path/to/modules/example_data.js')`
+2. Retrieve data using `let data = example.array(size_of_array, maximum_value_of_elements)`
+
+To return a single integer: `example.integer(maximum_value)`
 
 ## Installation
 
