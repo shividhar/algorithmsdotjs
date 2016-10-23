@@ -22,7 +22,7 @@ A variety of common data structures and algorithms implemented in node.js
 
 1. Clone the project repository
 2. `cd` into the project directory
-3. Run `node algorithms.js` to run project
+3. Run `node index.js` to run project
 4. Use console as input
 
 ### Use as dependency

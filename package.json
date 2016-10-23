@@ -2,7 +2,7 @@
   "name": "algorithmsdotjs",
   "version": "1.0.0",
   "description": "A variety of common data structures and algorithms implemented in pure Javascript.",
-  "main": "algorithms.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
