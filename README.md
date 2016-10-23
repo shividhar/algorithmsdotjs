@@ -49,7 +49,7 @@ To return a single integer: `example.integer(maximum_value)`
 
 1. Install `algorithmsdotjs` as `npm install --save algorithmsdotjs`
 2. Include the project with `algorithmsdotjs = require('algorithmsdotjs')`
-3. Use exports of index.js (example) `sorted = algorithmsdotjs.Bubble.sort(array)`
+3. Use exports of index.js (example) `sorted_array = algorithmsdotjs.Bubble.sort(array)`
 
 ## Contributing
 
