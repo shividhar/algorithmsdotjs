@@ -6,7 +6,7 @@ A variety of common data structures and algorithms implemented in node.js
 
 ## Directory `key`
 
-## Algorithms
+### Algorithms
 
 #### Sorts
 
