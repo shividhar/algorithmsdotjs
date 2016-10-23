@@ -58,7 +58,8 @@ If you have any additions/improvements/suggestions feel free to open a pull requ
 ### Current Contributors
 
 [Arun Kirubarajan](http://www.kirubarajan.com/)  
-[Neeraj Aggarwal](http://neerajaggarwal.com/)
+[Neeraj Aggarwal](http://neerajaggarwal.com/)  
+[Jacob Kelly](https://github.com/jacobjinkelly)
 
 ## License
 
