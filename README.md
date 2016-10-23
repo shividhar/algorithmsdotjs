@@ -9,7 +9,7 @@
 
 The key for each module is written as `key`.
 
-- [ ] signifies that a module is incomplete; feel free to implement them!
+- [ ] signifies that a module is incomplete; feel free to implement it!
 
 ### Algorithms
 
