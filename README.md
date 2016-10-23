@@ -1,6 +1,7 @@
 # algorithmsdotjs
 
-[![npm version](https://badge.fury.io/js/algorithms.js.svg)](https://badge.fury.io/js/algorithms.js)
+[![npm version](https://badge.fury.io/js/algorithmsdotjs.svg)](https://badge.fury.io/js/algorithmsdotjs)
+[![NPM](https://nodei.co/npm/algorithmsdotjs.png?mini=true)](https://nodei.co/npm/algorithmsdotjs/)
 
 A variety of common data structures and algorithms implemented in node.js
 
@@ -27,7 +28,7 @@ A variety of common data structures and algorithms implemented in node.js
 
 ### Use as dependency
 
-1. Install algorithms.js as `npm install algorithmsdotjs`
+1. Install algorithmsdotjs as `npm install algorithmsdotjs`
 
 ## Contributing
 
