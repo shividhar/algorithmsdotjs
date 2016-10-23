@@ -6,4 +6,10 @@ for (var i = 0; i < 10; i++) {
 
 }
 
+exports.integer = function() {
+
+  return Math.floor((Math.random() * 100) + 1);
+
+}
+
 exports.elements = elements;

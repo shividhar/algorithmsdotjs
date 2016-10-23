@@ -2,7 +2,7 @@ const readline = require('readline');
 const example = require('./modules/example_data.js')
 
 const rl = readline.createInterface({
-  
+
   input: process.stdin,
   output: process.stdout
 
@@ -32,6 +32,41 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
         const selection = require('./algorithms/sorts/selection.js');
         output = selection.sort(input);
+        console.log('Output: ' + output);
+
+      }
+
+      else if (algorithm == '3') {
+
+        input = example.integer();
+        console.log('Randomly generated input: ' + input);
+
+        const factorial = require('./algorithms/combinatronics/factorial.js');
+        output = factorial.calculate(input);
+        console.log('Output: ' + output);
+
+      }
+
+      else if (algorithm == '4') {
+
+        input1 = example.integer();
+        input2 = example.integer();
+        console.log('Randomly generated input: ' + input1 + ' and ' + input2);
+
+        const combinations = require('./algorithms/combinatronics/combinations.js');
+        output = combinations.calculate(input1, input2);
+        console.log('Output: ' + output);
+
+      }
+
+      else if (algorithm == '5') {
+
+        input1 = example.integer();
+        input2 = example.integer();
+        console.log('Randomly generated input: ' + input1 + ' and ' + input2);
+
+        const permutations = require('./algorithms/combinatronics/permutations.js');
+        output = permutations.calculate(input);
         console.log('Output: ' + output);
 
       }
