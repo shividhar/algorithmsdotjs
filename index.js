@@ -16,7 +16,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       if (algorithm == '1') {
 
-        input = example.array(10);
+        input = example.array(10, 100);
         console.log('Randomly generated input: ' + input);
 
         const bubble = require('./algorithms/sorts/bubble.js');
@@ -27,7 +27,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       else if (algorithm == '2') {
 
-        input = example.array(10);
+        input = example.array(10, 100);
         console.log('Randomly generated input: ' + input);
 
         const selection = require('./algorithms/sorts/selection.js');
@@ -38,7 +38,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       else if (algorithm == '3') {
 
-        input = example.integer();
+        input = example.integer(10);
         console.log('Randomly generated input: ' + input);
 
         const factorial = require('./algorithms/combinatorics/factorial.js');
@@ -49,9 +49,9 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       else if (algorithm == '4') {
 
-        input1 = example.integer();
-        input2 = example.integer();
-        console.log('Randomly generated input: ' + input1 + ' and ' + input2);
+        n = example.integer(10);
+        r = example.integer(10);
+        console.log('Randomly generated input: ' + n + ' and ' + r);
 
         const combinations = require('./algorithms/combinatorics/combinations.js');
         output = combinations.calculate(input1, input2);
@@ -61,12 +61,12 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       else if (algorithm == '5') {
 
-        input1 = example.integer();
-        input2 = example.integer();
-        console.log('Randomly generated input: ' + input1 + ' and ' + input2);
+        n = example.integer(10);
+        r = example.integer(10);
+        console.log('Randomly generated input: ' + n + ' and ' + r);
 
         const permutations = require('./algorithms/combinatorics/permutations.js');
-        output = permutations.calculate(input);
+        output = permutations.calculate(n, r);
         console.log('Output: ' + output);
 
       }

@@ -1,7 +1,18 @@
+const factorial = require('./factorial.js');
+
 exports.calculate = function(n, r) {
 
-  // catch input error if r > n
+  if (r > n) {
 
-  return 'coming soon!';
+    return 'error: r > n';
+
+  }
+
+  else {
+
+    combinations = factorial.calculate(n) / (factorial.calculate(n - r) * factorial.calculate(r));
+    return combinations;
+
+  }
 
 }
