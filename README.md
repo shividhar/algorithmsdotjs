@@ -8,8 +8,8 @@ A variety of common data structures and algorithms implemented in pure Javascrip
 
 ### Sorts
 
-Bubble Sort [ ]
-Binary Sort [ ] 
+- [ ] Bubble Sort
+- [ ] Binary Sort   
 
 ## Installation
 
