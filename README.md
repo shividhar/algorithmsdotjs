@@ -55,6 +55,11 @@ To return a single integer: `example.integer(maximum_value)`
 
 If you have any additions/improvements/suggestions feel free to open a pull request or fork this repository!
 
+### Current Contributors
+
+[Arun Kirubarajan](http://www.kirubarajan.com/)
+[Neeraj Aggarwal](http://neerajaggarwal.com/)
+
 ## License
 
 MIT Licensed
