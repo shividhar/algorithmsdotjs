@@ -138,7 +138,7 @@ exports.Selection = Selection;
 exports.Factorial = Factorial;
 exports.Combinations = Combinations;
 exports.Permutations = Permutations;
-exports.Factorial = Fibonacci;
+exports.Fibonacci = Fibonacci;
 
 exports.LinkedList = LinkedList;
 exports.BinaryTree = BinaryTree;
