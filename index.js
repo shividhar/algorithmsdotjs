@@ -3,6 +3,8 @@
 const readline = require('readline');
 const example = require('./modules/example_data.js')
 
+//// Algorithms
+
 // Sorts
 
 const Bubble = require('./algorithms/sorts/bubble.js');
@@ -13,8 +15,10 @@ const Selection = require('./algorithms/sorts/selection.js');
 const Factorial = require('./algorithms/combinatorics/factorial.js');
 const Combinations = require('./algorithms/combinatorics/combinations.js');
 const Permutations = require('./algorithms/combinatorics/permutations.js');
+const Fibonacci = require('./algorithms/combinatorics/fibonacci.js');
 
-// Data Structures
+
+//// Data Structures
 
 const LinkedList = require('./data_structures/linked_list.js');
 const BinaryTree = require('./data_structures/binary_tree.js');
@@ -86,6 +90,16 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       }
 
+      else if (algorithm == '6') {
+
+        n = example.integer(10);
+        console.log('Randomly generated input: ' + n);
+
+        output = Fibonacci.calculate(n);
+        console.log('Output: ' + output);
+
+      }
+
       rl.close();
 
     });
@@ -124,6 +138,7 @@ exports.Selection = Selection;
 exports.Factorial = Factorial;
 exports.Combinations = Combinations;
 exports.Permutations = Permutations;
+exports.Factorial = Fibonacci;
 
 exports.LinkedList = LinkedList;
 exports.BinaryTree = BinaryTree;
