@@ -23,6 +23,7 @@ The key for each module is written as `key`.
 - [x] Factorial `3`
 - [x] Combinations `4`
 - [x] Permutations `5`
+- [x] Fibonacci `6`
 
 ### Data Structures
 
