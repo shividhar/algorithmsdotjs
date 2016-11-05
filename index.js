@@ -22,6 +22,7 @@ const Fibonacci = require('./algorithms/combinatorics/fibonacci.js');
 
 const LinkedList = require('./data_structures/linked_list.js');
 const BinaryTree = require('./data_structures/binary_tree.js');
+const Graph = require('./data_structures/graph.js');
 
 // Kitchen Sink
 
@@ -122,6 +123,30 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       }
 
+      // Graph
+      else if (structure == '3') {
+
+        // Parameters
+        const maxNode = 10;
+        const numberOfPairs = 10;
+
+        var nodePairs = [];
+        console.log('\nRandomly generated node pairs:');
+        for (var i = 0; i < numberOfPairs; i++) {
+          nodePairs.push(example.array(2, maxNode));
+          console.log(nodePairs[nodePairs.length - 1][0], nodePairs[nodePairs.length - 1][1]);
+        }
+
+        var adjacencyList = Graph.adjacencyList(nodePairs);
+
+        console.log('\nAdjacency list:');
+        //console.log(adjacencyList);
+        for (var node in adjacencyList) {
+          console.log(node, ':', adjacencyList[node]);
+        }
+
+      }
+
       rl.close();
 
     });
@@ -142,3 +167,4 @@ exports.Fibonacci = Fibonacci;
 
 exports.LinkedList = LinkedList;
 exports.BinaryTree = BinaryTree;
+exports.Graph = Graph;
