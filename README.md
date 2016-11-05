@@ -27,8 +27,9 @@ The key for each module is written as `key`.
 
 ### Data Structures
 
-- [ ] Linked List `1`  
-- [ ] Binary Tree `2`  
+- [ ] Linked List `1`
+- [ ] Binary Tree `2`
+- [ ] Graph `3`
 
 ## Installation
 
@@ -60,7 +61,8 @@ If you have any additions/improvements/suggestions feel free to open a pull requ
 
 [Arun Kirubarajan](http://www.kirubarajan.com/)  
 [Neeraj Aggarwal](http://neerajaggarwal.com/)  
-[Jacob Kelly](https://github.com/jacobjinkelly)
+[Jacob Kelly](https://github.com/jacobjinkelly)  
+[Bruno Almeida](https://github.com/brunofalmeida)
 
 ## License
 
