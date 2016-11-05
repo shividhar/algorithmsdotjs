@@ -17,6 +17,7 @@ The key for each module is written as `key`.
 
 - [x] Bubble Sort `1`
 - [x] Selection Sort `2`
+- [x] Merge Sort `7`
 
 #### Combinatorics
 
@@ -29,7 +30,7 @@ The key for each module is written as `key`.
 
 - [ ] Linked List `1`
 - [ ] Binary Tree `2`
-- [ ] Graph `3`
+- [x] Graph `3`
 
 ## Installation
 
