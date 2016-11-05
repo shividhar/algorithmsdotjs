@@ -63,7 +63,7 @@ If you have any additions/improvements/suggestions feel free to open a pull requ
 [Arun Kirubarajan](http://www.kirubarajan.com/)  
 [Neeraj Aggarwal](http://neerajaggarwal.com/)  
 [Jacob Kelly](https://github.com/jacobjinkelly)  
-[Bruno Almeida](https://github.com/brunofalmeida)
+[Bruno Almeida](https://github.com/brunofalmeida)  
 [Shivansh Dhar](https://github.com/shividhar)
 
 ## License
