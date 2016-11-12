@@ -75,7 +75,7 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
         r = example.integer(10);
         console.log('Randomly generated input: ' + n + ' and ' + r);
 
-        output = Combinations.calculate(input1, input2);
+        output = Combinations.calculate(n, r);
         console.log('Output: ' + output);
 
       }
