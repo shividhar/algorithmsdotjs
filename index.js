@@ -126,19 +126,11 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
       // Graph
       else if (structure == '3') {
 
-        // Parameters
-        const maxNode = 10;
-        const numberOfPairs = 10;
-
-        var nodePairs = [];
+        var nodePairs = example.integerPairArray(10, 10);
         console.log('\nRandomly generated node pairs:');
-        for (var i = 0; i < numberOfPairs; i++) {
-          nodePairs.push(example.array(2, maxNode));
-          console.log(nodePairs[nodePairs.length - 1][0], nodePairs[nodePairs.length - 1][1]);
-        }
+        console.log(nodePairs);
 
         var adjacencyList = Graph.adjacencyList(nodePairs);
-
         console.log('\nAdjacency list:');
         //console.log(adjacencyList);
         for (var node in adjacencyList) {
