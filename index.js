@@ -17,6 +17,9 @@ const Combinations = require('./algorithms/combinatorics/combinations.js');
 const Permutations = require('./algorithms/combinatorics/permutations.js');
 const Fibonacci = require('./algorithms/combinatorics/fibonacci.js');
 
+// Graphs
+
+const BreadthFirstSearch = require('./algorithms/graphs/breadth_first_search.js');
 
 //// Data Structures
 
@@ -101,6 +104,34 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       }
 
+      else if (algorithm == '7') {
+
+        const numberOfNodes = 10;
+        const maxNode = 10;
+
+        var adjacencyList = Graph.adjacencyList(example.integerPairArray(numberOfNodes, maxNode));
+        var startNode = example.integer(maxNode);
+        var endNode = example.integer(maxNode);
+
+        console.log('\nRandomly generated graph (adjacency list):');
+        for (var node in adjacencyList) {
+          console.log(node, ':', adjacencyList[node]);
+        }
+
+        console.log();
+        console.log('Random start node:', startNode);
+        console.log('Random end node:', endNode);
+
+        var result = BreadthFirstSearch.calculate(adjacencyList, startNode, endNode);
+
+        if (result == -1) {
+          console.log('\nResult: No path found');
+        } else {
+          console.log('\nResult: shortest distance =', result);
+        }
+
+      }
+
       rl.close();
 
     });
@@ -156,6 +187,8 @@ exports.Factorial = Factorial;
 exports.Combinations = Combinations;
 exports.Permutations = Permutations;
 exports.Fibonacci = Fibonacci;
+
+exports.BreadthFirstSearch = BreadthFirstSearch;
 
 exports.LinkedList = LinkedList;
 exports.BinaryTree = BinaryTree;
