@@ -17,6 +17,9 @@ const Combinations = require('./algorithms/combinatorics/combinations.js');
 const Permutations = require('./algorithms/combinatorics/permutations.js');
 const Fibonacci = require('./algorithms/combinatorics/fibonacci.js');
 
+// Graphs
+
+const BreadthFirstSearch = require('./algorithms/graphs/breadth_first_search.js');
 
 //// Data Structures
 
@@ -101,6 +104,34 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
 
       }
 
+      else if (algorithm == '7') {
+
+        const numberOfNodes = 10;
+        const maxNode = 10;
+
+        var adjacencyList = Graph.adjacencyList(example.integerPairArray(numberOfNodes, maxNode));
+        var startNode = example.integer(maxNode);
+        var endNode = example.integer(maxNode);
+
+        console.log('\nRandomly generated graph (adjacency list):');
+        for (var node in adjacencyList) {
+          console.log(node, ':', adjacencyList[node]);
+        }
+
+        console.log();
+        console.log('Random start node:', startNode);
+        console.log('Random end node:', endNode);
+
+        var result = BreadthFirstSearch.calculate(adjacencyList, startNode, endNode);
+
+        if (result == -1) {
+          console.log('\nResult: No path found');
+        } else {
+          console.log('\nResult: shortest distance =', result);
+        }
+
+      }
+
       rl.close();
 
     });
@@ -126,19 +157,11 @@ rl.question("Algorithm (1) or Data Structure (2)? \n", (answer) => {
       // Graph
       else if (structure == '3') {
 
-        // Parameters
-        const maxNode = 10;
-        const numberOfPairs = 10;
-
-        var nodePairs = [];
+        var nodePairs = example.integerPairArray(10, 10);
         console.log('\nRandomly generated node pairs:');
-        for (var i = 0; i < numberOfPairs; i++) {
-          nodePairs.push(example.array(2, maxNode));
-          console.log(nodePairs[nodePairs.length - 1][0], nodePairs[nodePairs.length - 1][1]);
-        }
+        console.log(nodePairs);
 
         var adjacencyList = Graph.adjacencyList(nodePairs);
-
         console.log('\nAdjacency list:');
         //console.log(adjacencyList);
         for (var node in adjacencyList) {
@@ -164,6 +187,8 @@ exports.Factorial = Factorial;
 exports.Combinations = Combinations;
 exports.Permutations = Permutations;
 exports.Fibonacci = Fibonacci;
+
+exports.BreadthFirstSearch = BreadthFirstSearch;
 
 exports.LinkedList = LinkedList;
 exports.BinaryTree = BinaryTree;

@@ -27,3 +27,16 @@ exports.array = function(size, max) {
   return elements;
 
 };
+
+exports.integerPairArray = function(size, max) {
+  var pairs = [];
+
+  for (var i = 0; i < size; i++) {
+    pairs.push([exports.integer(max), exports.integer(max)]);
+    //console.log(pair);
+  }
+
+  //console.log(pairs);
+
+  return pairs;
+}

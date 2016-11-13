@@ -26,6 +26,10 @@ The key for each module is written as `key`.
 - [x] Permutations `5`
 - [x] Fibonacci `6`
 
+#### Graphs
+
+- [x] Breadth First Search `7`
+
 ### Data Structures
 
 - [ ] Linked List `1`
