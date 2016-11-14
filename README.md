@@ -3,6 +3,8 @@
 [![NPM](https://nodei.co/npm/algorithmsdotjs.png?mini=true)](https://nodei.co/npm/algorithmsdotjs/)  
 [![npm version](https://badge.fury.io/js/algorithmsdotjs.svg)](https://badge.fury.io/js/algorithmsdotjs)
 
+![alt text](http://www.kirubarajan.com/assets/img/portfolio/algorithms.png "algorithmsdotjs logo")  
+
 (soon to be) The most comprehensive collection of common data structures and algorithms (with explanations!) implemented in node.js
 
 ## Directory
